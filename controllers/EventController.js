@@ -7,9 +7,9 @@ var cloudinary = require('cloudinary');
 
 var moment = require('moment');
 cloudinary.config({
-    cloud_name: 'findinbox',
-    api_key: '339474782685825',
-    api_secret: 'X29i8LvZJB8chSLvhd97g3mwWCs'
+    cloud_name: 'dzerq05zm',
+    api_key: '199453447665147',
+    api_secret: 'BoLRDxRTwA7gYNIJB0seOIeqopU'
 });
 var FCM = require('fcm-push');
 var serverKey = 'AAAAdvkI0U4:APA91bG7diSbxUWg-WFkyKrWTorqy_kPnhfo1dmzk0wznMNKjRVTg3y5CFCBwlcxW6U1D3tGPJhB17gjsHynke4ZaP5b2Xr99WTwVXY_jNooBhNHb4ImcZ90ejNH6sU36AJQ79eGQ4Nu';

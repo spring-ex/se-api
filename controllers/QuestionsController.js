@@ -5,9 +5,9 @@ var cloudinary = require('cloudinary');
 var TinyURL = require('tinyurl');
 var asyncLoop = require('node-async-loop');
 cloudinary.config({
-    cloud_name: 'findinbox',
-    api_key: '339474782685825',
-    api_secret: 'X29i8LvZJB8chSLvhd97g3mwWCs'
+    cloud_name: 'dzerq05zm',
+    api_key: '199453447665147',
+    api_secret: 'BoLRDxRTwA7gYNIJB0seOIeqopU'
 });
 
 module.exports = {
