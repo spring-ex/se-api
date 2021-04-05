@@ -275,9 +275,9 @@ module.exports = {
                                                     return;
                                                 } else {
                                                     var message = urlencode(req.body.Notification.Description);
-                                                    var username = 'findinbox.com@gmail.com';
-                                                    var hash = 'ef85931fcbc2bdf732cae88be7645ea37bb24699b3438af3cb8c757a1fabb940';
-                                                    var sender = 'findin';
+                                                    var username = '<text_local_username>';
+                                                    var hash = '<text_local_hash>';
+                                                    var sender = '<text_local_sender_name>';
                                                     for (var i = 0; i < phoneNumbers.length; i++) {
                                                         phoneNumbers[i] = parseInt(phoneNumbers[i]);
                                                     }
@@ -323,9 +323,9 @@ module.exports = {
                             return;
                         } else {
                             var message = urlencode(req.body.Notification.Description);
-                            var username = 'findinbox.com@gmail.com';
-                            var hash = 'ef85931fcbc2bdf732cae88be7645ea37bb24699b3438af3cb8c757a1fabb940';
-                            var sender = 'findin';
+                            var username = '<text_local_username>';
+                            var hash = '<text_local_hash>';
+                            var sender = '<text_local_sender_name>';
                             for (var i = 0; i < phoneNumbers.length; i++) {
                                 phoneNumbers[i] = parseInt(phoneNumbers[i]);
                             }

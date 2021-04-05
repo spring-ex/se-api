@@ -83,9 +83,9 @@ module.exports = {
             database.connectionString.query(queryString, req.body, function(err, rows) {
                 if (!err) {
                     var message = urlencode("Thank you for visiting " + collegeName + ". For any further queries, please contact " + collegePh + ".");
-                    var username = 'findinbox.com@gmail.com';
-                    var hash = 'ef85931fcbc2bdf732cae88be7645ea37bb24699b3438af3cb8c757a1fabb940';
-                    var sender = 'findin';
+                    var username = '<text_local_username>';
+                    var hash = '<text_local_hash>';
+                    var sender = '<text_local_sender_name>';
                     req.body.PhoneNumber = parseInt(req.body.PhoneNumber);
                     var data = 'username=' + username + '&hash=' + hash + '&sender=' + sender + '&numbers=' + req.body.PhoneNumber + '&message=' + message
                     var options = {
@@ -147,9 +147,9 @@ module.exports = {
             return;
         } else {
             var message = urlencode(req.body.Message);
-            var username = 'findinbox.com@gmail.com';
-            var hash = 'ef85931fcbc2bdf732cae88be7645ea37bb24699b3438af3cb8c757a1fabb940';
-            var sender = 'findin';
+            var username = '<text_local_username>';
+            var hash = '<text_local_hash>';
+            var sender = '<text_local_sender_name>';
             for (var i = 0; i < req.body.PhoneNumbers.length; i++) {
                 req.body.PhoneNumbers[i] = parseInt(req.body.PhoneNumbers[i]);
             }
