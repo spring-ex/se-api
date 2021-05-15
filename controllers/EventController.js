@@ -195,7 +195,7 @@ module.exports = {
                         var publicIdArray = [];
                         asyncLoop(images, function(item, next) {
                             cloudinary.uploader.upload(item.src, function(result) {
-                                urlArray.push('http://res.cloudinary.com/demo/image/fetch/f_auto,q_auto/' + result.url);
+                                urlArray.push(result.secure_url);
                                 publicIdArray.push(result.public_id);
                                 if (urlArray.length == images.length) {
                                     var queries = [];
